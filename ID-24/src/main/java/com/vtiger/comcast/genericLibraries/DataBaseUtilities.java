@@ -1,10 +1,11 @@
 package com.vtiger.comcast.genericLibraries;
 
 import java.sql.Connection;
-import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import com.mysql.jdbc.Driver;
 
 public class DataBaseUtilities {
 	static Driver driver;
